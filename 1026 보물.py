@@ -9,4 +9,4 @@ B = sorted(B, reverse=True)
 for i in range(N):
     sum += A[i]*B[i]
     
-print(sum)#hi
+print(sum)
