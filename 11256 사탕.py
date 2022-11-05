@@ -1,6 +1,7 @@
 T = int(input())
-J, N = map(int, input().split())
+
 for k in range(T):
+    J, N = map(int, input().split())
     tmp = []
     for i in range(N):
         R, C = map(int, input().split())
